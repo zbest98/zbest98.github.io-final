@@ -1,0 +1,53 @@
+.container-fluid{width:100vw;padding:0;}
+.navbar{background-color:#7cccf4;}
+.navbar-brand{width:18%;}
+.navbar-brand img {width:100%;}
+.nav-link{font-family:'Permanent Marker',cursive;font-size:2.5rem;}
+.navbar-light .navbar-nav .nav-link{color:#8d3b87;}
+.navbar-light .navbar-nav .nav-link img{height:5vh;}
+.navbar-nav{padding-left:45vw;}
+.nav2{background-color:#8d3b87;height:7vh;display:flex;flex-direction:row;justify-content:space-around;align-items:center;}
+.nav2 a{font-family: 'Permanent Marker', cursive;color:#5dd762;}
+.nav2 a:hover{color:#f218dd;}
+main{background-color: #ffffff; }
+.merchbox{
+    display:grid;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(4, 1fr);
+justify-content: space-around;
+align-items: center;
+padding-bottom:2vh;}
+.rotate-icon{transition: transform 0.3s ease-out;}
+.rotate-icon:hover{transform:scale(1.10);}
+main img {max-width:170%;height:auto;}
+main a{width:50%;}
+aside{background-color: #5dd762;display:flex;flex-direction:column;align-items:center;justify-content: space-around;font-family:'Coming Soon';text-align:center;}
+aside h4{font-family: 'Permanent Marker', cursive;}
+.row footer{background-color: #1c43e8;height:6vh;}
+aside .btn-primary{width: 10vw;height:5vh;background-color:#7cccf4; font-family: 'Coming Soon'}
+.btn-primary:hover{background-color:#8d3b87;}
+.btn_box{display:flex;flex-direction:column;}
+input{box-sizing:border-box;border-radius:5px;}
+footer{display:flex;justify-content:space-around;align-items:center;}
+footer h5{font-family:'Permanent Marker',cursive;color:#f68006;}
+footer a{color:#f68006}
+footer a:hover{color:#f218dd}
+@media screen and (max-width:720px){
+    .merchbox{
+       display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;
+    }
+    aside .btn-primary{width:20vw;}
+    aside .btn_box{flex-direction:row;}
+    .nav2 a{font-size:60%;}
+    aside h4{font-size:80%;}
+    aside form {font-size:70%;}
+}
+@media screen and (min-width:961px) and (max-width:1025px)
+ 
+  {
+     main{height:100vh;}
+     aside{height:100vh;}
+      .navbar-nav{padding-left:10vw;}
+      .merchbox{display:grid;grid-template-rows:.25fr .25fr .25fr .25fr;grid-template-columns: .5fr .5fr;}
+      footer{height:3vh;}
+  }

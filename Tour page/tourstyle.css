@@ -1,0 +1,43 @@
+body{padding:0;margin:0;}
+.container-fluid{padding:0;}
+.navbar{background-color:#7cccf4;width:100vw;}
+.navbar-brand{width:18%;}
+.navbar-brand img {max-width:100%;}
+.nav-link{font-family:'Permanent Marker',cursive;font-size:2.5rem;}
+.navbar-light .navbar-nav .nav-link{color:#8d3b87;}
+.navbar-light .navbar-nav .nav-link img{height:5vh;}
+.navbar-nav{padding-left:45vw;}
+footer{display:flex;justify-content:space-around;align-items:center; width:100vw;height:6vh;}
+footer h5{font-family:'Permanent Marker',cursive;color:#f68006;}
+footer a{color:#f68006}
+footer a:hover{color:#f218dd}
+.row footer{background-color: #1c43e8;}  
+.header{margin-top:17vh;text-align:center;background-color:#8d3b88ad;width:40vw;color:#5dd762;}
+main{height:79vh;display:flex;flex-direction:column;align-items:center;}
+body{background-image:url(In_Color-6.jpg); background-repeat: no-repeat;
+    background-size: cover;}
+.dates{text-align:center;background-color:#8d3b88ad;width:40vw;color:#5dd762;}
+.extra{text-align:center;background-color:#8d3b88ad;width:40vw;padding-top:6vh;color:#5dd762;}
+h1{font-family:'Permanent Marker'}
+h2{font-family:'Permanent Marker'}
+h3{font-family:'Permanent Marker'}
+
+@media screen and (max-width:767px){
+   .dates{width:80vw;}
+    .header{width:80vw;margin-top:1.5vh;}
+    .extra{width:80vw;}
+
+}
+@media screen and (min-width:768px) and (max-width:1030px){
+.header{margin-top:20vh;width:80vw;}
+.dates{width:80vw;}
+.extra{width:80vw;}
+main{height:90vh;}
+}
+@media screen and (min-width:961px) and (max-width:1025px)
+ 
+  {
+     main{height:100vh;}
+      .navbar-nav{padding-left:10vw;}
+   
+  }
